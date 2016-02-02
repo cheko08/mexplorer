@@ -1,0 +1,211 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Travel The World</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.style_s span{color:#18b74c}
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Travel The World&rdquo; Documentation by &ldquo;Alessio Corsini&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Travel The World&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 12/08/2013<br>
+					By: Alessio<br>
+					
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">
+                Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/corsaro">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#psdFiles">Files included</a></li>
+	
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>Layout Responsive all divided into slide part of page.<br />
+        Tours is a masonry style, fully packed portfolio theme withanimated content panels, expanding content blocks.<br />
+        This theme is perfectly responsive and mobile optimized.<br />
+        Responsive Content Carousels – A handy module best suited for any content.<br />
+        More animated modules inside – We have effectively used CSS3 and jQuery to power up interactive
+elements in this theme.<br />
+           Example The parallax about it s this into slide2:
+       </p>
+		
+		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+		
+		<p>All section it s division with Id --> Slide Number content data-slide <br />
+        Slide1<br />
+        Slide2<br />
+        etc...
+        these data-slide are called from the menu navigator
+        </p>
+
+		<p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p> 
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>I'm using two CSS files in this theme. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</p> 
+
+		<p>The second file contains all of the specific stylings for the page. The file is separated into sections using:</p>  
+
+<pre>	
+/* === General Css === */
+
+some code
+
+/* Navigation */
+
+some code
+
+
+/* === Slide0 === */
+
+some code
+
+/* === Slide1 === */
+	
+some code
+	
+/* === Slide2 === */
+	
+some code
+	
+......etc etc ...
+
+ /* === Contact Form === */
+
+some code
+
+
+/* === Footer === */
+	
+some code
+	
+</pre>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+        <br />
+		<strong>File StyleSheet</strong>
+        <p class="style_s"><span>coordMap.css</span>   Content structur for style map into section about.</p>
+        <p class="style_s"><span>flexslider.css</span>      Content style for slideshow section gallery..</p>
+        <p class="style_s"><span>grid.css</span>  Structure Layout</p>
+        <p class="style_s"><span>style_details.css</span>  Structure page info.html</p>
+        <p class="style_s"><span>style.css</span>  Content all style site</p>
+
+
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Structure Javascript files.</p>
+		
+		<img src="assets/images/structureFilejs.png" alt="HTML Structure" />
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>Most of the animation in this site is carried out from this scripts.
+<pre>	
+	Jscript.js
+
+    Content       
+           //Transition images Our Offers hide and show
+          //Menu Portfolio Hide and show image
+          //FANCYBOX with parameter
+
+    Radio.js a lot important for modify the title and image into pannel checkin checkout
+    Down the slide show al top
+
+
+    var checkboxHeight = "25";
+    var radioHeight = "25";
+    var selectWidth = "190";
+    //This is principal  title all country
+    var myArray = ["africa", "europe", "c_america", "australia", "n_america", "carribean", "asia", "s_america", "middle_east"];
+
+    //This is name title all image whene change country 
+
+    var africa = ["Benin", "Gambia", "Egypt", "Malawi", "Zambia", "Niger", "Madacascar", "Lorem"];
+    var europe = ["Roma", "Bolzano", "Praga", "Praga", "Venezia", "Parigi", "Cagli", "Puglia"];
+    var c_america = ["Jamaica", "Mexico", "Guatemala", "David", "Mexico", "Mexico", "Cuba", "Jamaica"];
+    var australia = ["Melbourne", "Sydney", "Perth", "Sydney", "Sydney", "Melbourne", "Perth", "Perth"];
+    var n_america = ["Miami", "Canada", "San Diego", "New York", "Detroit", "Chicago", "Los Angeles", "New York"];
+    var carribean = ["Jamaica", "Cuba", "Puerto Rico", "Bahamas", "Cayman", "Haiti", "Cuba", "Jamaica"];
+    var asia = ["Cina", "India", "Russia", "Afganistan", "Mongoli", "China", "Korea", "Japan"];
+    var s_america = ["Argentina", "Brasil", "Cile", "Peru", "Brasil", "Argentina", "Cile", "Brasil"];
+    var middle_east = ["Iraq", "Iran", "Arabic", "Iran", "Iran", "Iraq", "Iraq", "Iraq"];
+
+    //This is url  for call the show map 
+    var map_africa = "https://maps.google.com.mt/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=africa&amp;aq=&amp;sll=-8.783195,34.508523&amp;sspn=121.214187,270.527344&amp;gl=mt&amp;g=Africa&amp;ie=UTF8&amp;hq=&amp;hnear=Africa&amp;ll=-8.783195,34.508523&amp;spn=71.733665,135.263672&amp;t=h&amp;z=4&amp;output=embed";
+    var map_europe = "https://www.google.it/maps?sll=41.442726,12.392577999999995&amp;sspn=12.757592603316278,22.715160604868103&amp;t=m&amp;q=Europa&amp;dg=opt&amp;ie=UTF8&amp;hq=&amp;hnear=Europa&amp;ll=49.5,22&amp;spn=26.529675,67.631836&amp;z=5&amp;output=embed";
+    var map_c_america = "https://maps.google.com/?ie=UTF8&amp;ll=15.474857,-80.15625&amp;spn=18.433987,33.815918&amp;t=h&amp;z=6&amp;output=embed";
+    var map_australia = "http://goo.gl/maps/CC06B";
+    var map_n_america = "https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=united+states&amp;aq=&amp;sll=37.09024,-95.712891&amp;sspn=60.158465,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=Stati+Uniti&amp;t=m&amp;z=5&amp;ll=37.09024,-95.712891&amp;output=embed";
+    var map_carribean = "http://goo.gl/maps/GTDNn";
+    var map_asia = "http://goo.gl/maps/Xqytr";
+    var map_s_america = "http://goo.gl/maps/jIy5z";
+    var map_middle_east = "http://goo.gl/maps/qWgNW";
+
+
+</pre>
+			</li>
+
+		</ol>
+		
+		<hr>
+		
+		<h3 id="psdFiles"><strong>Files Included</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Travel includes a clean and clearly defined file structure so that our users can easily understand the
+hierarchy of theme assets. This will make it easy to edit the theme and customize it (for experienced
+users).</p>
+		
+		
+		<img src="assets/images/structureFile.png" alt="HTML Structure" />
+		
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Corsaro</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
