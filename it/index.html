@@ -1,0 +1,593 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+	<title>Mexplorer</title>
+	<link href="../img/favicon.ico" rel="shortcut icon" />
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="../css/jquery-ui-1.10.1.custom.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="../css/normalize.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" id="camera-css"  href="../css/flexslider.css" type="text/css" media="all"/>
+	<link rel="stylesheet" href="../css/grid.css" type="text/css" media="screen"/>
+	<link href="../css/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="../css/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'/>
+
+
+	<script src="../js/jquery-1.8.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui-1.10.1.custom.min.js"></script>
+	<script type="text/javascript" src="../js/slider/jquery.flexslider-min.js"></script>
+	<!--Google Maps-->
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+	<!--End Google Maps-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.src.js"></script>
+		<![endif]-->
+
+		<link href="../css/coordMap.css" rel="stylesheet" type="text/css" />
+		<!-- REVOLUTION BANNER CSS SETTINGS -->
+		<link href="../css/slide/style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/slide/settings.css" media="screen" />
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="../css/nojs.css" />
+		</noscript>	
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<div class="menu-top">	
+			<div class="container clearfix">
+				<!-- Logo -->
+				<div id="logo" class="fleft">
+					<a href="javascript:void(0);"><img src="../img/logo.png" alt=""/></a>
+				</div>
+				<!-- Navigation -->
+				<div id="nav" class="fright">
+					<ul class="navigation">
+						<li data-slide="1">Inicio</li>
+						<li data-slide="2">Servizi</li>
+						<li data-slide="3">About Us</li>
+						<li data-slide="4">Viaggio</li>
+						<li data-slide="5">Mexpedition</li>
+						<li data-slide="6">Galleria</li>
+						<li data-slide="10">Contatto</li>
+
+					</ul>
+					<div class="lenguage">
+						<ul>
+							<li><a href="../index.html"><img src="../img/fr.png" alt=""></a></li>
+							<li><a href="../cn/index.html"><img src="../img/cn.png" alt=""></a></li>
+							<li><a href="../en/index.html"><img src="../img/en.png" alt=""></a></li>
+							<li><a href="../es/index.html"><img src="../img/es.png" alt=""></a></li>
+
+
+						</ul>
+
+					</div>
+					<div class="social">
+						<ul>
+							<li><a href="http://www.facebook.com/mexplorerdmc" target="blank"><img src="../img/social/facebook.png" class="img-social" alt="Facebook"></a></li>
+							<li><a href="https://twitter.com/mexplorerdmc" target="blank"><img src="../img/social/twitter.png" class="img-social" alt="Twitter"></a></li>
+							<li><a href="https://www.instagram.com/mexplorerdmc/" target="blank"><img src="../img/social/instagram.png" class="img-social" alt="Instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/mexplorer-dmc" target="blank"><img src="../img/social/linkin.png" class="img-social" alt="LinkedIn"></a></li>
+							<li><a href=" http://lesmexplorateurs.blogspot.mx/" target="blank"><img src="../img/social/blogger.png" class="img-social" alt="Blog"></a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<!-- SlideShow -->
+		<div class="slidePoint" id="slide0" data-slide="1" data-stellar-background-ratio="0.5">
+			<div class="padding_slide1">
+				<div class="clearfix">
+
+					<div style="margin-bottom:0;">
+
+						<div class="fullwidthbanner-container">	
+
+							<div class="fullwidthbanner">
+								<ul>
+									<li data-transition="fade" data-slotamount="6" data-thumb="#"> 										
+										<img src="../img/Home_SlideA_01.jpg" alt=""/>
+
+									</li>
+									<li data-transition="fade" data-slotamount="6" data-thumb="#">
+										<img src="../img/Home_SlideA_02.jpg" alt=""/>
+
+									</li>
+
+									<li data-transition="fade" data-slotamount="6" data-thumb="#">
+										<img src="../img/Home_SlideA_03.jpg" alt=""/>
+
+
+									</li>
+
+								</ul>		
+								<div class="tp-bannertimer"></div>												
+							</div>					
+						</div>    
+
+					</div>
+					<div class="clear"></div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End SlideShow -->
+
+		<!-- Services -->
+
+		<div class="slidePoint" id="slide1" data-slide="2" data-stellar-background-ratio="0.5">
+			<div class="container clearfix">
+
+				<img class="icon_img" src="../images/icon1.png" alt=""/>
+				<h4>
+					Servizi</h4>
+					<div class="grid_12 history">
+
+						<div id="offers1" class="grid_4 serv_block">
+							<img  src="../img/Services_travel01.png" alt=""/>
+
+
+							<p>	<a href="travel.php" class="titulo">Viaggio</a></p>
+
+							<div>
+							<input type="submit" onclick="location.href='groupes.php'" class="contact_btn" value="Gruppi" />
+								<input type="submit" onclick="location.href='scolaire.php'" class="contact_btn" value="Scolare" />
+							</div>
+
+						</div>
+						<div id="offers2" class="grid_4 serv_block">
+							<!--<div class="icon_block2"></div>-->
+							<img src="../img/services_event.png" alt=""/>
+
+
+							<p><a href="event.php" class="titulo">Eventi</a></p>
+
+							<div>
+								<input type="submit"  onclick="location.href='particuliers.php'" class="contact_btn" value="Privato" />
+
+								<input type="submit"  onclick="location.href='profesional.php'" class="contact_btn" value="Professionisti" />
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="clear"></div>
+
+			</div><!-- Services -->
+
+			<!-- ABOUT -->
+			<div class="slidePoint" id="slide2" data-slide="3" data-stellar-background-ratio="0.5">
+
+				<div class="effect_2 padding_slide2">
+					<div class="container clearfix">
+
+						<div class="grid_12">
+							<h1><a class="about" href="about.php">About Us</a></h1>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- ABOUT -->
+			<!-- travel info -->
+
+			<div class="slidePoint" id="slide3" data-slide="4" data-stellar-background-ratio="0.5">
+
+				<div class="container clearfix">
+
+					<img class="icon_img" src="../images/icon2.png" alt=""/>
+					<h4>Viaggio</h4>
+					<div class="grid_12 history">
+
+						<div id="offers1" class="grid_4 serv_block">
+
+							<p><a href="infopays.php">Pagamenti e informazioni di viaggio</a></p>
+
+
+
+						</div>
+						<div id="offers2" class="grid_4 serv_block">
+							<!--<div class="icon_block2"></div>-->
+
+
+							<p><a href="terms.php">Condizioni generali di vendita</a></p>
+
+
+						</div>
+
+
+					</div>
+
+				</div>
+				<div class="clear"></div>
+
+			</div><!-- travel info -->
+
+
+			<div class="container">
+				<iframe width="100%" height="450" src="https://www.youtube.com/embed/GFC3r8TRmV0" frameborder="0" allowfullscreen style="margin:0 auto 50px;"></iframe>
+			</div>
+			<!--MAP-->
+			<div id="map_canvas" style="width:100%; margin:0 auto;">
+
+
+			</div>
+
+
+
+
+
+			<!-- TOURS -->
+			<div class="slidePoint" id="slide4" data-slide="5" data-stellar-background-ratio="0.5">
+				<div class="effect_2 padding_slide4">
+					<div class="container clearfix">
+						<div class="grid_12">
+							<h1>MEXPEDITIONS</h1>
+							<h2>Mexplorer sempre trova la maniera di soddisfare i vostri desideri proponendovi destinazioni originali ed attività fuori del comune, aggiustandosi sistematicamente alle vostre richieste. </h2>	
+							<h2>Per Mexplorer, il cielo è il limite!</h2>		
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="slidePoint" id="slide8" data-slide="5" data-stellar-background-ratio="0.5">
+				<div id="container" class="container transitions-enabled infinite-scroll">
+					<div class="grid_12" style="margin-bottom: 0;">
+						<div class="africa box col4 hover-item">
+							<div class="view view-first">
+								<img onclick="location.href='mexcursion.php'" style="cursor:pointer;" class="imgTop" alt="Ipsum" src="../img/Pack_mexcursion_01.png"/>
+								<div class="abs">
+									<a class="fancybox zoom info" href="../img/Pack_mexcursion_01.png"></a>
+								</div>	
+							</div>
+							<div class="layer_txt center">
+
+								<h3><a title="Some new Sketchs" rel="">MEXCURSION</a></h3>
+
+								<div class="clear"></div>
+
+
+								<div class="content_price"><a class="price_folio" href="mexcursion.php">ulteriori informazioni</a></div>
+							</div>
+						</div>
+
+						<div id="box1" class="africa box col4 hover-item">
+							<div class="view view-first">
+								<img onclick="location.href='mexploration.php'" style="cursor:pointer;" class="imgTop" alt="Ipsum" src="../img/Pack_mexploration_01.png"/>
+								<div class="abs">
+									<a class="fancybox zoom info" href="../img/Pack_mexploration_01.png"></a>
+								</div>	
+							</div>
+							<div class="layer_txt center">
+								<h3><a title="Some new Sketchs" rel="">MEXPLORATION</a></h3>
+
+								<div class="clear"></div>
+
+
+								<div class="content_price"><a class="price_folio" href="mexploration.php">ulteriori informazioni</a></div>
+							</div>
+						</div>
+
+						<div id="box2" class="africa box col4 hover-item">
+							<div class="view view-first">
+								<img onclick="location.href='mexotique.php'" style="cursor:pointer;" class="imgTop" alt="Ipsum" src="../img/Pack_mexotique_01.png"/>
+								<div class="abs">
+									<a class="fancybox zoom info" href="../img/Pack_mexotique_01.png"></a>
+								</div>	
+							</div>
+							<div class="layer_txt center">
+								<h3><a title="Some new Sketchs" rel="">MEXOTIQUE</a></h3>
+
+								<div class="clear"></div>
+
+
+								<div class="content_price"><a class="price_folio" href="mexotique.php">ulteriori informazioni</a></div>
+							</div>
+						</div>
+						<div id="box3" class="africa box col4 hover-item">
+							<div class="view view-first">
+								<img onclick="location.href='mexperience.php'" style="cursor:pointer;" class="imgTop" alt="Ipsum" src="../img/Pack_mexperiences_01.png"/>
+								<div class="abs">
+									<a class="fancybox zoom info" href="../img/Pack_mexperiences_01.png"></a>
+								</div>	
+							</div>
+							<div class="layer_txt center">
+								<h3><a title="Some new Sketchs" rel="">MEXPERIENCE</a></h3>
+
+								<div class="clear"></div>
+
+
+								<div class="content_price"><a class="price_folio" href="mexperience.php">ulteriori informazioni</a></div>
+							</div>
+						</div>
+
+						<div id="box4" class="africa box col4 hover-item">
+							<div class="view view-first">
+								<img onclick="location.href='mexception.php'" style="cursor:pointer;" class="imgTop" alt="Ipsum" src="../img/Pack_mexeption_01.png"/>
+								<div class="abs">
+									<a class="fancybox zoom info" href="../img/Pack_mexeption_01.png"></a>
+								</div>	
+							</div>
+							<div class="layer_txt center">
+								<h3><a title="Some new Sketchs" rel="">MEXCEPTION</a></h3>
+
+								<div class="clear"></div>
+
+
+								<div class="content_price"><a class="price_folio" href="mexception.php">ulteriori informazioni</a></div>
+							</div>
+						</div>
+
+						<div id="box5" class="africa box col4 hover-item">
+							<div class="view view-first">
+								<img class="imgTop" alt="Ipsum" src="../img/comingsoon.png"/>
+								<div class="abs">
+									<a class="fancybox zoom info" href="../img/comingsoon.png"></a>
+								</div>	
+							</div>
+							<div class="layer_txt center">
+								<h3><a title="Some new Sketchs" rel="">arrivo</a></h3>
+
+								<div class="clear"></div>
+
+
+								<div class="content_price"><a class="price_folio" style="cursor:not-allowed;">arrivo</a></div>
+							</div>
+						</div>
+
+					</div>
+				</div> <!-- #container -->
+			</div>
+
+			<div class="slidePoint" id="slide5" data-slide="6" data-stellar-background-ratio="0.5">
+				<div class="padding_slide5">
+
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<iframe width="100%" height="735" src="https://www.youtube.com/embed/GFC3r8TRmV0" frameborder="0" allowfullscreen></iframe>
+							</li>
+							<li>
+
+								<img src="../img/Home_SlideB_01.png" alt=""/>
+							</li>
+							<li>
+
+								<img src="../img/Home_SlideB_02.png" alt=""/>
+							</li>
+
+							<li>
+
+								<img src="../img/Home_SlideB_03.png" alt=""/>
+							</li>
+
+							<li>
+
+								<img src="../img/Home_SlideB_04.png" alt=""/>
+							</li>
+							<li>
+
+								<img src="../img/Home_SlideB_05.png" alt=""/>
+							</li>
+
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="slidePoint" id="slide6" data-slide="10" data-stellar-background-ratio="0.5" >
+				<div class="container clearfix" >
+
+					<div class="grid_12 tit_contact">
+						<h1><span>Contatto</span></h1>
+					</div>
+					<div class="clear"></div>
+
+					<div class="grid_6 serv_block_contact form_contact" >
+						<img class="icon_img" src="../images/icon5.png" alt=""/>
+						<h4>Contatto</h4>
+						<div class="clear"></div>
+						<div class="contact_form">  
+							<div id="note"></div>
+							<div id="fields">
+								<form id="ajax-contact-form" method="post" action="contact_form/contact_process.php">
+									<input type="text" name="name" value="" placeholder="Nome" />
+									<input type="text" name="email" value="" placeholder="Email" />
+									<textarea name="message" id="message" placeholder="Messaggio"></textarea>
+									<div class="clear"></div>
+									<input type="reset" class="contact_btn" value="Clear" />
+									<input type="submit" class="contact_btn send_btn" value="Send" />
+									<div class="clear"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="grid_6 contact_det_block serv_block_contact details_contact">
+						<img class="icon_img" src="../images/icon4.png" alt=""/>
+						<h4>Informazioni</h4>
+						<div class="clear"></div>
+						<ul class="foot_block_intouch">
+							<li class="touch_phone"><p>(+521) 999 225 7334</p></li>
+							<li class="touch_clock"><p>Lun - Sab 9:00am - 6:00 pm</p></li>
+							<li class="touch_mail"><a href="mailto:contact@mexplorer-dmc.com">contact@mexplorer-dmc.com</a></li>
+							<li class="touch_site"><a href="javascript:void(0);">www.mexplorer-dmc.com</a></li>
+							<li class="touch_adress"><p>C. 37a #25 por 14 y 16 Aguilas de Chuburna 97215 Merida Yucatan, Mexico</p></li>
+							<li class="facebook"><a href="http://facebook.com/mexplorerdmc" target="blank">http://facebook.com/mexplorerdmc</a></li>
+
+						</ul>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+			</div>
+			<div class="container clearfix social-container">
+				<div class="social-media-fb" >
+					<img src="../img/facebook.png" class="social-share" alt="">
+					<div class="fb-page" data-href="https://www.facebook.com/mexplorerdmc" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/mexplorerdmc"><a href="https://www.facebook.com/mexplorerdmc">Mexplorer</a></blockquote></div></div>
+				</div>
+				<div class="social-media-inst">
+					<img src="../img/instagram.png" class="social-share" alt="">
+					<iframe src="http://widget.websta.me/in/mexplorerdmc/?r=1&w=2&h=3&b=1&p=5&sb=off" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:310px; height: 390px"></iframe> <!-- websta - websta.me -->
+
+				</div>
+
+
+				<div class="social-media-tw">
+					<img src="../img/twitter.png" class="social-share" alt="">
+					<div style="width:300px;margin:0 auto;">
+						<a class="twitter-timeline" href="https://twitter.com/Mexplorerdmc" data-widget-id="691488294941528064">Tweets por el @Mexplorerdmc.</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="footer">
+				<div class="container clearfix">
+					<div class="copyright">Mexplorer &copy; 2014 </div>
+					<div id="back_top"><a class="button" title="" data-slide="1"></a></div>
+				</div>
+			</div>
+
+			<script src="../js/jquery.transit.js" type="text/javascript"></script>
+			<script src="../js/slider/functions.js" type="text/javascript"></script>
+
+			<script type="text/javascript" src="../js/radio.js"></script>
+			<script type="text/javascript" src="../js/JScript.js"></script>
+			<script type="text/javascript" src="../js/jquery.stellar.min.js"></script>
+			<script type="text/javascript" src="../js/waypoints.min.js"></script>
+
+			<script src="../js/coordmap.js" type="text/javascript"></script>
+			<script src="../js/init.js" type="text/javascript"></script>
+
+			<!--Google Maps -->
+			<script type="text/javascript">
+				function initialize() {
+					var styleArray = [
+					{
+						featureType: 'all',
+						stylers: [
+						{ saturation: 20 }
+						]
+					}, {
+						featureType: 'road.arterial',
+						elementType: 'geometry',
+						stylers: [
+						{ hue: '#00ffee' },
+						{ saturation: 50 }
+						]
+					}, {
+						featureType: 'poi.business',
+						elementType: 'labels',
+						stylers: [
+						{ visibility: 'off' }
+						]
+					}
+					];
+
+
+					var latlng = new google.maps.LatLng(23.309300,-101.645508);
+					var myOptions = {
+						zoom: 5,
+						center: latlng,
+						mapTypeId: google.maps.MapTypeId.ROADMAP,
+						styles: styleArray,
+						scrollwheel: false,
+						disableDoubleClickZoom: true,
+						draggable: false,
+						navigationControl: false,
+						mapTypeControl: false,
+						scaleControl: false,
+						panControl: false,
+						streetViewControl: false,
+						zoomControl: false,
+
+						scaleControl: true,
+						scaleControlOptions: {
+							position: google.maps.ControlPosition.BOTTOM_LEFT
+						}
+					};
+					var map = new google.maps.Map(document.getElementById("map_canvas"),
+						myOptions);
+				}
+			</script>
+			<script src="../js/jquery.jcarousel.js" type="text/javascript"></script>
+			<script src="../js/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+
+			<div id="valHeight"></div>
+
+			<script type="text/javascript">	    /*$($.date_input.initialize);*/</script>
+			<!--SlidetTop-->
+			<!-- jQuery KenBurn Slider  -->	
+			<script type="text/javascript" src="../js/slide/jquery.themepunch.plugins.min.js"></script>			
+			<script type="text/javascript" src="../js/slide/jquery.themepunch.revolution.min.js"></script>	
+
+			<!--Slider-->
+
+
+    <!--
+			##############################
+			 - ACTIVATE THE BANNER HERE -
+			##############################
+		-->
+		<script type="text/javascript">
+			    //JSHint Validated Custom JS Code
+			    /*jslint smarttabs:true */
+			    var tpj = jQuery;
+			    tpj(document).ready(function () {
+
+			    	if (tpj.fn.cssOriginal !== undefined)
+			    		tpj.fn.css = tpj.fn.cssOriginal;
+
+			    	tpj('.fullwidthbanner').revolution(
+			    	{
+			    		delay: 5000,
+			    		startwidth: 890,
+			    		startheight: 650,
+			    		onHoverStop: 'off',
+			    		thumbWidth: 100, thumbHeight: 50,
+			    		thumbAmount: 4,
+			    		hideThumbs: 200, navigationType: 'both',
+			    		navigationArrows: "verticalcentered",
+			    		navigationStyle: "round",
+			    		touchenabled: "on",
+			    		navOffsetHorizontal: 0,
+			    		navOffsetVertical: 20,
+			    		fullWidth: "on",
+			    		shadow: 0
+			    	});
+			    });
+			</script>
+			<!--And Slider-->	
+		</body>
+		</html>
