@@ -36,15 +36,15 @@
     <div class="grid_6 info_trip" style="margin-right: 0;">
 
         <h3>Gruppi</h3>
-        <p>Viaggiare tra amici, tra colleghi , compartire momenti unici , rinforzare un gruppo, creare unioni e ricordi insieme.  </p>
-        <p>Mesico è un paese estremamente favorevole per le avventure e la vicinanza umana. Attraverso incontri con le sue comunità e la sua gente, Mexplorer vi propone scoprire questo paese. 
+        <p>Viaggiare tra amici, tra colleghi, compartire momenti unici, rinforzare un gruppo, creare unioni e ricordi insieme. </p>
+        <p>Messico è un paese estremamente favorevole per le avventure e la vicinanza umana. Attraverso incontri con le sue comunità e la sua gente, Mexplorer vi propone scoprire questo paese. 
         </p>
        <p>Grazie ai nostri partner presenti in ogni parte di questo immenso territorio, faremo di tutto per darvi un “Messico al di fuori del normale”, in modo che tutti quelli che vi accompagneranno abbiano un piacere uguale al vostro. 
 </p>
 
-       <p>Grazie ai nostri partner presenti in ogni parte di questo immenso territorio, avremo voglia di viaggiare al di fuori delle orme lasciate dai precedenti viaggiatori, in modo che la felicità della gente che vi accompagnerà sia uguale alla vostra.  </p>
-       <p>Se, di temperamento più tranquillo, preferiscono viaggiare con calma dal più alto del Pico de Orizaba, fino al più profondo della giungla chiapateca, dal deserto secco della Sierra Tarahumara fino alle lagune dello Yucatán, una infinità di paesaggi solo aspettano il vostro sguardo. 
-       Cordialità, relax, meraviglia saranno gli ingredienti chiave che renderanno questo viaggio una vera esperienza collettiva di gruppo . </p>
+       <p>Grazie ai nostri partner presenti in ogni parte di questo immenso territorio, avremo voglia di viaggiare al di fuori delle orme lasciate dai precedenti viaggiatori, in modo che la felicità della gente che vi accompagnerà sia uguale alla vostra. </p>
+       <p>Se, di temperamento più tranquillo, preferiscono viaggiare con calma dal più alto del Pico de Orizaba, fino al più profondo della giungla chiapateca, dal deserto secco della Sierra Tarahumara fino alle lagune dello Yucatan, una infinità di paesaggi solo aspettano il vostro sguardo.  </p>
+       <p>Cordialità, relax, meraviglia saranno gli ingredienti chiave che renderanno questo viaggio una vera esperienza collettiva di gruppo. </p>
     </div>
 </div>  
 
